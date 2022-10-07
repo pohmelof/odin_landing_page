@@ -1,0 +1,33 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin-top: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Hero section styles*/
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-message,
+.img {
+    flex: 1;
+}
+.img {
+    background-color: teal;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
